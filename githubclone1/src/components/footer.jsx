@@ -1,19 +1,29 @@
+// Import necessary dependencies and components
+
 import { Box, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
 import { AlignEnd, Center, HideMobile, MyText, defaultPadding } from ".";
 
+
+// Define the Footer component
 const Footer = () => {
   const footerText = {
     color: "#717983",
     // fontSize: "1rem",
   };
+
+  // Styling for the bottom box
   const buttomBox = {
     backgroundColor: "#161b22",
   };
   return (
     <>
+    {/* Main container with a maximum width and margin for different screen sizes */}
+
+
       <Box marginTop={{ lg: "1rem", sm: "17rem", xs: "16rem" }} maxWidth={1200}>
         <Stack sx={defaultPadding}>
+          {/* Text content in the footer */}
           <Typography sx={footerText}>
             1 The Total Economic Impact™ Of GitHub Enterprise Cloud and Advanced
             Security, a commissioned study conducted by Forrester Consulting,
@@ -25,9 +35,14 @@ const Footer = () => {
           </Typography>
         </Stack>
       </Box>
+
+       {/* Grid container for organizing footer content */}
       <Grid mt={3} sx={defaultPadding} container spacing={5}>
+         {/* Grid item 1 */}
         <Grid item lg={3.5} sm={12} xs={12}>
           <MyText sx={{ fontSize: "2rem", fontWeight: "bold" }}>GitHub</MyText>
+
+             {/* Subscribe button with styling */}
           <Box mt={3}>
             <MyText>Subscribe to our newsletter</MyText>
             <Typography sx={{ color: "#717983" }}>
@@ -57,6 +72,8 @@ const Footer = () => {
             </Center>
           </Box>
         </Grid>
+           {/* Grid items 2, 3, 4, and 5 for different sections */}
+        {/* ... (Content for various sections in the footer) */}
         <Grid item lg={2} sm={3} xs={6}>
           <Stack spacing={2}>
             <Typography sx={footerText}>Product</Typography>
@@ -71,6 +88,8 @@ const Footer = () => {
             <Typography sx={footerText}>Roadmap</Typography>
           </Stack>
         </Grid>
+
+
         <Grid item lg={2} sm={3} xs={6}>
           <Stack spacing={2}>
             <Typography sx={footerText}>Platform</Typography>
@@ -105,12 +124,16 @@ const Footer = () => {
           </Stack>
         </Grid>
       </Grid>
+
+       {/* Bottom box with icons and additional information */}
       <Box mt={10} p={2} sx={buttomBox}>
         <Box sx={defaultPadding}>
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
             <Grid container spacing={2}>
               <Grid item lg={6} xs={12} sm={12}>
                 <Box sx={{ display: "flex", gap: "1rem" }}>
+
+                   {/* Text and links for copyright and terms */}
                   <Typography
                     fontSize={{ lg: "1rem", sm: "1rem", xs: ".8rem" }}
                     sx={footerText}
@@ -148,6 +171,8 @@ const Footer = () => {
                   </Box>
                 </Box>
               </Grid>
+
+               {/* Grid item with social media icons */}
               <Grid item lg={6} xs={12} sm={12}>
                 <AlignEnd>
                   <Box sx={{ display: "flex", gap: "1rem" }}>

@@ -19,33 +19,7 @@ const CommitImage = () => {
           </Box>
         </Box>
       </Box>
-      {/* <Box mt={5} sx={MarginForDemoContents} maxWidth={500}>
-        <Box sx={MainPadding}>
-          <Stack spacing={3}>
-            <Typography
-              sx={{ fontSize: "1.2rem", fontWeight: 400, color: "white" }}
-            >
-              GitHub Codespaces{" "}
-              <span style={{ color: "#8B949E" }}>
-                offers a complete dev environment in seconds, so you can code,
-                build, test, and open pull requests from any repo anywhere.
-              </span>
-            </Typography>
-            <Box sx={{ display: "flex", gap: "1rem" }}>
-              <Typography
-                sx={{
-                  fontSize: "1.2rem",
-                  fontWeight: "bold",
-                  color: "white",
-                }}
-              >
-                Check out GitHub Codespaces
-              </Typography>
-             <GoArrow/>
-            </Box>
-          </Stack>
-        </Box>
-      </Box> */}
+    
     </Box>
   );
 };
