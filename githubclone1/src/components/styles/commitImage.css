@@ -1,0 +1,97 @@
+/* galexy fold devices (phones, 600px and down*/
+@media only screen and (max-width: 280px) {
+  .renderEngine {
+    position: absolute;
+    top: 5rem;
+    right: -2rem;
+    width: 100px;
+    display: none;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .renderEngine {
+    position: absolute;
+    top: 8rem;
+    right: 2.5rem;
+    width: 80%;
+    opacity: 0;
+  }
+  .renderEngine2 {
+    position: absolute;
+    top: 6rem;
+    right: 2.5rem;
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .renderEngine {
+    position: absolute;
+    top: 19rem;
+    right: 0rem;
+    width: 50%;
+    opacity: 0;
+  }
+  .renderEngine2 {
+    position: absolute;
+    top: 10rem;
+    right: 2.5rem;
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .renderEngine {
+    position: absolute;
+    top: 19rem;
+    right: 0rem;
+    width: 50%;
+  }
+  .renderEngine2 {
+    position: absolute;
+    top: 10rem;
+    right: 2.5rem;
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .renderEngine {
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    width: 40%;
+  }
+  .renderEngine2 {
+    position: absolute;
+    top: 25rem;
+    right: 2.5rem;
+    width: 40%;
+    opacity: 1;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .renderEngine {
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    width: 35%;
+  }
+  .renderEngine2 {
+    position: absolute;
+    top: 30rem;
+    right: 2.5rem;
+    width: 35%;
+    opacity: 1;
+  }
+}

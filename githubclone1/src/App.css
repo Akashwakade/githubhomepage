@@ -1,0 +1,526 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url("../src/assets/star.svg");
+  background-repeat: no-repeat;
+  /* overflow-y:hidden;  */
+  width: 100vw;
+  height: 230vh;
+  /* object-fit: fil; */
+  background-size: 100%;
+  /* background-position-x: -30rem; */
+  position: relative;
+  z-index: -2;
+}
+
+.section6Pic {
+  background-image: url("../src/assets/stars6.svg");
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  /* object-fit: fil; */
+  background-size: 100%;
+  /* background-position-x: 40rem;*/
+  background-position-y: -30rem;
+  position: absolute;
+  /* top: -20rem; */
+  /* rotate: 30deg; */
+  padding-top: 3rem;
+  margin-top: 50;
+  z-index: -2;
+}
+.relative {
+  position: relative;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.rotate {
+  rotate: -15deg;
+}
+.transition {
+  transition: all 1s;
+}
+
+.transition2 {
+  transition: all 2s;
+}
+.transitionDelay {
+  transition-delay: 200ms;
+}
+
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.roundImage {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+body {
+  background-color: #0d1117;
+  /* overflow: hidden; */
+}
+
+.spaceShip {
+  position: absolute;
+  top: 5rem;
+  right: 4rem;
+}
+
+.main {
+  z-index: -1;
+}
+
+body {
+  overflow-x: hidden;
+}
+.lower {
+  z-index: -2;
+}
+.Elevate {
+  z-index: 4;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .spaceShip {
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+    width: 100px;
+    height: 100px;
+  }
+  .strock {
+    position: absolute;
+    top: -6rem;
+    left: 0.5rem;
+    /* display: none; */
+  }
+  .strock img {
+    width: 20rem;
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 25rem;
+    left: 1rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 27rem;
+    left: 1rem;
+    z-index: 5;
+  }
+  .strockIcon3 {
+    position: absolute;
+    top: 69rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .strock3 {
+    position: absolute;
+    top: 71rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .strock4 {
+    position: absolute;
+    top: 120rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .strock5 {
+    position: absolute;
+    top: 272rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .rotateLink{
+    rotate: 90deg;
+    width: 100px;
+  }
+}
+/* .ndObserver{
+
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .strock {
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    /* display: none; */
+  }
+  /* .strock img{
+    width: 20rem;
+  } */
+  .strockIcon2 {
+    position: absolute;
+    top: 40rem;
+    left: 1rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 42rem;
+    left: 1rem;
+    z-index: 5;
+  }
+  .strockIcon3 {
+    position: absolute;
+    top: 72rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .strock3 {
+    position: absolute;
+    top: 74rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .strock4 {
+    position: absolute;
+    top: 128rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+  .strock5 {
+    position: absolute;
+    top: 307rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .strock {
+    position: absolute;
+    top: -4rem;
+    left: 1rem;
+    /* display:block; */
+  }
+  .strock img {
+    width: 28rem;
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 40rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 42rem;
+    left: 1.7rem;
+    z-index: 5;
+  }
+  .strockIcon3 {
+    position: absolute;
+    top: 72rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+  .strock3 {
+    position: absolute;
+    top: 74rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+  .strock4 {
+    position: absolute;
+    top: 130rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+  .strock5 {
+    position: absolute;
+    top: 300rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .strock {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    /* display:block; */
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 44rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 46rem;
+    left: 1.7rem;
+    z-index: 5;
+  }
+  .strockIcon3 {
+    position: absolute;
+    top: 76rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+  .strock3 {
+    position: absolute;
+    top: 78rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+  .strock4 {
+    position: absolute;
+    top: 123rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .strock {
+    position: absolute;
+    top: 5rem;
+    left: 9rem;
+    /* display:block; */
+  }
+
+  .strockIcon2 {
+    position: absolute;
+    top: 48.5rem;
+    left: 9.8rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 50rem;
+    left: 9.8rem;
+    z-index: 5;
+  }
+  .strockIcon3 {
+    position: absolute;
+    top: 80rem;
+    left: 9.8rem;
+    z-index: -3;
+  }
+  .strock3 {
+    position: absolute;
+    top: 82rem;
+    left: 9.8rem;
+    z-index: -3;
+  }
+  .strock4 {
+    position: absolute;
+    top: 139rem;
+    left: 9.5rem;
+    z-index: -3;
+  }
+  .strock5 {
+    position: absolute;
+    top: 255rem;
+    left: 9.5rem;
+    z-index: -3;
+  }
+}
+
+.strockIcon4 {
+  position: absolute;
+  top: 273rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+/* end of srock icons */
+
+/* strocks */
+/* .strock2 {
+  position: absolute;
+  top: 52rem;
+  left: 9.5rem;
+  z-index: 5;
+} */
+
+.strock6 {
+  position: absolute;
+  top: 274rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+.strock7 {
+  position: absolute;
+  top: 345rem;
+  left: 6rem;
+  z-index: -3;
+}
+
+/* end of strocks */
+
+/* 
+div {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
+} */
+
+/* glowBoxs for the stock icons */
+
+.GlowBox1 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(241, 80, 241), 0 0 0px 0px #f0f,
+    0 0 0px 0px #f0f;
+}
+
+.GlowBox2 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(80, 241, 88), 0 0 0px 0px rgb(30, 255, 0),
+    0 0 0px 0px #f0f;
+}
+
+.GlowBox3 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(241, 160, 80), 0 0 0px 0px rgb(255, 153, 0),
+    0 0 0px 0px #f0f;
+}
+
+.GlowBox4 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(186, 1, 253), 0 0 0px 0px rgb(255, 153, 0),
+    0 0 0px 0px #f0f;
+}
+
+/* slide animations */
+.hidden {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translatey(-10%);
+  transition: all 1s;
+}
+.sideSlide {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translateX(-5%);
+  transition: all 0.5s;
+}
+.rightSlide {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translateX(5%);
+  transition: all 0.5s;
+}
+
+.SlideUp {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translatey(5%);
+  transition: all 1s;
+}
+
+.scaleUp {
+  opacity: 0;
+  width: 70%;
+  transition: all 1s;
+}
+
+.showScale {
+  opacity: 1;
+  width: 100%;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  rotate: 0deg;
+}
+
+.group:nth-child(2) {
+  transition-delay: 200ms;
+}
+.group:nth-child(3) {
+  transition-delay: 400ms;
+}
+.group:nth-child(4) {
+  transition-delay: 600ms;
+}
+.group:nth-child(5) {
+  transition-delay: 800ms;
+}
+.group:nth-child(6) {
+  transition-delay: 1000ms;
+}
+.group:nth-child(7) {
+  transition-delay: 1200ms;
+}
+.group:nth-child(8) {
+  transition-delay: 1400ms;
+}
+.group:nth-child(9) {
+  transition-delay: 1600ms;
+}
+.group:nth-child(10) {
+  transition-delay: 1800ms;
+}
+
+.fastGroup:nth-child(2) {
+  transition-delay: 100ms;
+}
+.fastGroup:nth-child(3) {
+  transition-delay: 200ms;
+}
+.fastGroup:nth-child(4) {
+  transition-delay: 300ms;
+}
+.fastGroup:nth-child(5) {
+  transition-delay: 400ms;
+}
+.fastGroup:nth-child(6) {
+  transition-delay: 500ms;
+}
+.fastGroup:nth-child(7) {
+  transition-delay: 600ms;
+}
+.fastGroup:nth-child(8) {
+  transition-delay: 700ms;
+}
+.fastGroup:nth-child(9) {
+  transition-delay: 1600ms;
+}
+.fastGroup:nth-child(10) {
+  transition-delay: 1800ms;
+}

@@ -1,0 +1,155 @@
+.planet {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+}
+
+.pictureBox {
+  position: relative;
+}
+
+/* galexy fold devices (phones, 600px and down) */
+@media only screen and (max-width: 280px) {
+  .picture {
+    position: absolute;
+    top: -6rem;
+    left: -9rem;
+    width: 200px;
+    display: none;
+  }
+
+  .picture2 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+    width: 200px;
+    display: none;
+    /* z-index: -3; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .picture {
+    position: absolute;
+    top: -6rem;
+    left: 1.3rem;
+    width: 300px;
+    
+  }
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: -1rem;
+    width: 300px;
+
+  }
+
+  .picture2 {
+    position: absolute;
+    top:1rem;
+    left: -1rem;
+    width: 210px;
+    /* z-index: -3; */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .picture {
+    position: absolute;
+    top: -6rem;
+    left: 7rem;
+    /* width: 200px; */
+  }
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 0rem;
+    /* width: 300px; */
+
+  }
+
+  .picture2 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+    /* width: 200px; */
+    /* z-index: -3; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .picture {
+    position: absolute;
+    top: -6rem;
+    left: 7rem;
+    /* width: 200px; */
+  }
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 20rem;
+    /* width: 300px; */
+
+  }
+
+  .picture2 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+    /* width: 200px; */
+    /* z-index: -3; */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .picture {
+    position: absolute;
+    top: -6rem;
+    left: 7rem;
+    /* width: 200px; */
+  }
+
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 20rem;
+    /* width: 300px; */
+
+  }
+
+  .picture2 {
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+    /* width: 200px; */
+    /* z-index: -3; */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .picture {
+    position: absolute;
+    top: -6rem;
+    left: 7rem;
+    /* width: 200px; */
+  }
+
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 9rem;
+    /* width: 300px; */
+
+  }
+
+  .picture2 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+    /* width: 200px; */
+    /* z-index: -3; */
+  }
+}

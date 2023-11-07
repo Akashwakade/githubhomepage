@@ -1,0 +1,19 @@
+.maindiv {
+  /* padding: rem; */
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 16.5rem;
+}
+
+.maintext {
+  font-size: 3.2rem;
+  color: #7ee787;
+  font-weight: 400;
+}
+
+.mainBox {
+  width: 100%;
+  height: auto;
+}
